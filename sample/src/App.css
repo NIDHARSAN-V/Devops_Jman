@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f3f3f3;
+  color: #444;
+}
+
+.wonderful-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wonderful-page > div {
+  background: white;
+  padding: 40px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 600px;
+}
+
+.wonderful-page h1 {
+  font-size: 2.5rem;
+  margin: 0 0 20px;
+}
+
+.wonderful-page p {
+  font-size: 1rem;
+  margin: 0 0 20px;
+}
+
+.action-button {
+  background-color: #009639;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #007a2e;
+}
